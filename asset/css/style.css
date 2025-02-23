@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Tiro+Bangla:ital@0;1&display=swap');
+
+.goog-logo-link { display: none !important; }
+.goog-te-gadget { display: none !important; }
+.goog-te-banner-frame { display: none !important; }
+.goog-te-balloon-frame { display: none !important; }
+.goog-te-banner { display: none !important; }
+body { top: 0px !important; }
+
+/* Custom CSS to fit Google Translate Widget in your design */
+#google_translate_element { display: none; }
+.goog-te-banner-frame.skiptranslate { display: none !important; }
+body { top: 0px !important; }
+/* Additional CSS to hide top Google Bar 
+.skiptranslate { display: none !important; }*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Tiro Bangla", "Raleway", serif;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6, a, p {
+    font-family: "Tiro Bangla", "Raleway", serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+:root {
+    --color1: #0872b9;
+    --color2: #5bc5f4;
+    --oswald: 'Oswald', sans-serif;
+    --sans: 'Open Sans', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.welcome_part {
+    background: var(--color1);
+}
+
+.welcome_icon li a {
+    color: #e7e7e7;
+    transition: .3s;
+}
+
+.welcome_icon li a:hover {
+    color: #353535;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.carousel-item {
+    height: auto;
+}
+
+.banner-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.navbar {
+    position: sticky !important;
+    top: 0 !important;
+    background: var(--color1);
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.nav-link {
+    font-family: "Tiro Bangla", "Raleway", serif;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: red;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.info-section {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.info-section ul {
+    list-style-image: url('../img/bullet_arrow.png');
+    padding-left: 20px;
+}
+
+.info-section a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+    display: block;
+    padding: 5px 0;
+}
+
+.info-section a:hover {
+    background-color: var(--color2);
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+.port_img {
+    position: relative;
+}
+
+.port_img_overlay {
+    height: 0%;
+    width: 0%;
+    background: rgba(8, 114, 185, 0.3);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .5s;
+}
+
+.port_img:hover .port_img_overlay {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.port_img_overlay h3 {
+    color: #fff;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_part {
+    padding: 15px 0;
+    background: var(--color1);
+}
+
+.footer_con a {
+    color: var(--color2);
+    font-family: var(--sans);
+}
+
+.footer_icon {
+    padding-left: 110px;
+}
+
+.footer_icon li a {
+    color: #ffffff;
+    padding: 0px 10px;
+    background-color: transparent;
+    border: 2px solid rgb(253, 252, 252);
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.advisor-card {
+    width: 20rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.advisor-header {
+    background-color: var(--color1);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.advisor-img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.advisor-body {
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.full_form_border{
+    padding-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.form_image{
+    width: 100px;
+    height: 100px;
+}
+
+.photo-box{
+    width: 140px;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
